@@ -5,8 +5,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon --watch src --ext js --exec \"node src/app.js\"",
-
+    "dev": "nodemon --watch src --ext js --exec \"node app.js\"",
     "start": "node app.js"
   },
   "keywords": [],
