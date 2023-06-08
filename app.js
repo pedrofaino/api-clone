@@ -11,7 +11,7 @@ import routerAcc from "./src/routes/accommodation.js";
 
 const app = express();
 
-const whiteList = [process.env.ORIGIN1,process.env.ORIGIN2]
+const whiteList = [process.env.ORIGIN1]
 
 app.use(cors({
     origin:function(origin, callback){
