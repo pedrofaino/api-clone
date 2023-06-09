@@ -31,10 +31,10 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-    firstname: {
+    firstName: {
       type: String,
     },
-    lastname: {
+    lastName: {
       type: String,
     },
     role: {
